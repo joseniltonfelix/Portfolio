@@ -1,6 +1,6 @@
 html, body {
     height: 100%;
-    background-color: #d3d3d3;
+    background-color: #ffffff;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -13,8 +13,7 @@ html, body {
     border-radius: 1rem;
     display: flex;
     height: 4rem;
-    width: 100vw;
-    margin: 10px;
+    margin : 8px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6);
 
 
@@ -22,18 +21,87 @@ html, body {
 .header img {
     margin-top: 7px;
     align-items: center;
-    width: 100px;
+    width: 50px;
+    margin-left: 30px;
+    
 
 }
 .header p {
+    color:antiquewhite;
     display: flex;
     gap: 30px;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 0;
     margin-left: 20px;
+    font-family: 'raleway',sans-serif;
+    font-size: large;
+
+    
+
+}
+.header span {
+    margin: 10px;
 }
 .header .container {
     display: flex;
     align-items: center;
     gap: 20px;
+}
+main {
+    display: flex;
+    justify-content: center;
+}
+.container_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'raleway',sans-serif;
+    font-size: large; 
+}
+.texts {
+    display: flex;
+    flex-direction: column;
+
+
+}
+.logos {
+    display: flex;
+    gap: 5px;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+
+}
+.linkedin{
+    width:50px;  
+}
+.github {
+    width: 50px ;
+}
+.helloworld {
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    width: 12rem;
+
+}
+.name {
+    font-family: 'raleway',sans-serif;
+    font-size: 3.25rem;
+    margin-top: 40px;
+    font-weight: bold;
+    letter-spacing: -1px;
+
+}
+.desenv_software {
+    margin-top: 20px;
+}
+.img {
+    border-radius: 50%;
+    width: 400px;
+    border: 3px solid;
+    margin-top: 70px;
+    margin-right: 70px;
+    box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.6);
+
 }
