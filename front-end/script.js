@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const menuItems = document.querySelectorAll("header a");
     const sections = {
         "home": document.querySelector("header"),
-        "sobre mim": document.querySelector("#about-me"),
+        "sobre-mim": document.querySelector(".about-me"),
         "projetos": document.querySelector(".projects"),
         "tecnologias": document.querySelector(".tecnologies"),
         "jornada": document.querySelector(".journey"),
@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     menuItems.forEach(item => {
         item.addEventListener("click", (event) => {
-            event.preventDefault(); 
+            event.preventDefault();
             const section = sections[item.textContent.toLowerCase()];
             if (section) {
                 section.scrollIntoView({ behavior: "smooth" });
@@ -19,11 +19,10 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
-    // Botão Voltar ao Topo
     const backToTopButton = document.getElementById("backToTop");
 
     window.addEventListener("scroll", () => {
-        if (window.scrollY > 300) { 
+        if (window.scrollY > 300) {
             backToTopButton.style.display = "block";
         } else {
             backToTopButton.style.display = "none";
