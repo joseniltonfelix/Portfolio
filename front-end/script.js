@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const menuItems = document.querySelectorAll("header a");
     const sections = {
         "home": document.querySelector("header"),
-        "sobre-mim": document.querySelector(".about-me"),
+        "sobre mim": document.querySelector(".about-me"),
         "projetos": document.querySelector(".projects"),
         "tecnologias": document.querySelector(".tecnologies"),
         "jornada": document.querySelector(".journey"),
