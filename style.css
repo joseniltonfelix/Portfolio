@@ -271,7 +271,13 @@ header .container {
     color: aquamarine;
     display: flex;
     justify-content: center;
-
+}
+.all-projects {
+    display: flex;
+    gap: 50px;
+}
+.projects a {
+    text-decoration: none;
 }
 
 .projects-title {
@@ -282,16 +288,24 @@ header .container {
     font-weight: bold;
     margin-bottom: 30px;
 }
-.tile-projects {
+.tile-projects{
     margin-bottom: 3rem;
 }
+
+.text-project{
+    margin-top: 5px;
+    max-width: 200px;
+    text-align: center;
+    color: #ffffff;
+}
+
 .tile-projects:hover {
     cursor: pointer;
     transform: translateY(-3px);  
 
-    
 }
 .tile-projects img {
+    margin-bottom: 3px;
     max-width: 200px;
     height: auto;
     padding: 7px;
